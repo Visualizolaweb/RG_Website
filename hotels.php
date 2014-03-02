@@ -10,7 +10,12 @@
 		<?php include("_includes/menu.php");?>
 
 		<article>
-			Fundada en el 2005, y comenzando a operar en el 2007, RG Group a surgido como un participante mundial en las industrias de hoteles, resorts, bienes y raíces, y hospitalidad. RG actualmente emplea a más de 500 personas y tiene una dedicación por enriquecer y expandir el potencial de turismo del destino con crecimiento más acelerado en Centroamérica. Desde la playa, hasta las montañas y la ciudad, las propiedades de RG encapsulan la verdadera diversidad cultural de Panamá. Siendo ya un líder comprobado, el grupo se encuentra estratégicamente posicionado para una expansión que incluye múltiples franquicias de hoteles y restaurantes con exposición global.
+			<p>Descubre el mejor proyecto del Pacifico, Aqua espera por ti. 
+			   Para mayor información llamamos al (507) 204-5757
+			   o escribanos a <a href="mailto:ventas@rgpanama.com" target="_blank">ventas@rgpanama.com</a></p>		
+		</article>
+		<article>
+			<iframe src="//player.vimeo.com/video/77314775" width="900" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</article>
 	</section>
 </body>
