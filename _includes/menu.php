@@ -1,4 +1,5 @@
 <nav>
+	<h1>RG Group - Hotels & Inmobiliaria</h1>
 	<ul>
 		<li><a href="home.php" title="INICIO">INICIO</a></li>
 		<li><a href="hotels.php" title="HOTELES AQUA">HOTELES AQUA</a></li>
