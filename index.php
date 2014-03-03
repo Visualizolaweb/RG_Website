@@ -9,13 +9,43 @@
 	<meta name="keywords" 	 content="Hoteles, playa, playa blanca, whyndham, gambito, panama, vacaciones, relax, tranquilidad">
 	<meta name="author"			 content="www.visualizolaweb.com">
 	<link rel="stylesheet" 	 href="_assets/_Stylesheets/rgestilos.css">
+
+	<!-- Load Jquery -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Load Slider with Responsive -->
+	<script src="http://unslider.com/unslider.min.js"></script>
+ 
 </head>
 <body>
 	<section>
 		<header> 
 			<?php include("_includes/menu.php");?>
+		 		<div class="label"><img src="_assets/_Images/Hotels/WGPlaya_blanca/logotype-label.png" alt="Enter Site Wyndham Gran Playa Blanca"></div>
+				<div class="banner">
+				 <ul>
+			        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
+			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/2.jpg')">  </li> 
+			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/3.jpg')">  </li> 
+			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/4.jpg')">  </li> 
+			   </ul>
+				</div>
+	 
 		</header>	
 	
-	</section>	
+	</section>
+
+<script>
+    $(document).ready(function(){
+        $('.banner').unslider({
+        speed: 500,               //  The speed to animate each slide (in milliseconds)
+        delay: 3000,              //  The delay between slide animations (in milliseconds)
+        complete: function() {},  //  A function that gets called after every slide animation
+        keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+        dots: true,               //  Display dot navigation
+        fluid: true              //  Support responsive design. May break non-responsive designs
+        });
+     });
+</script>
 </body>
 </html>
