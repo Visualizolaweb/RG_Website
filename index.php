@@ -30,9 +30,31 @@
 			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/4.jpg')">  </li> 
 			   </ul>
 				</div>
-	 
-		</header>	
-	
+	 	</header>	
+		<article id="buttons_hotels">
+			<ul>
+			 	<a href="#">
+					<li id="btn_casagrande">
+						<img src="_assets/_Images/Hotels/CASA_GRANDE/fadebutton_2.jpg" class="bottom"/>
+						<img src="_assets/_Images/Hotels/CASA_GRANDE/fadebutton_1.jpg" class="top"/>
+					</li>
+				</a>
+
+				<a href="#">
+					<li id="btn_trypcoronado">
+						<img src="_assets/_Images/Hotels/TRYPCORONADO/fadebutton_2.jpg" class="bottom"/>
+						<img src="_assets/_Images/Hotels/TRYPCORONADO/fadebutton_1.jpg" class="top"/>
+					</li>
+				</a>
+
+				<a href="#">
+					<li id="btn_wgcorona">
+						<img src="_assets/_Images/Hotels/WGCORONA/fadebutton_2.jpg" class="bottom"/>
+						<img src="_assets/_Images/Hotels/WGCORONA/fadebutton_1.jpg" class="top"/>
+					</li>
+				</a>
+			</ul>
+		</article>
 	</section>
 
 <script>

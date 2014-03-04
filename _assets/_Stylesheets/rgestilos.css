@@ -6,8 +6,11 @@ body,html{
 	font-family: "Arial Narrow", Arial;
 	font-stretch: condensed;}
 
-
-
+body{
+	background-image: url("../_Images/background.jpg");
+	background-repeat: repeat-x;
+	background-color: #0e0e0e;
+}
 header,nav{
 	width: 100%;}
 
@@ -97,6 +100,45 @@ nav ul .btny li{
 	margin-bottom: -80px;
 	top: 280px;
 }
+
+#buttons_hotels, #buttons_hotels ul{
+	width: 100%;
+	min-height: 330px;
+	clear: both;
+	position: relative;
+}
+
+#buttons_hotels ul li{
+	width: calc(100% / 3);
+	float: left; 
+	min-height: 330px;
+}
+
+#buttons_hotels ul li img{
+	width: 100%;
+}
+
+#btn_casagrande, #btn_trypcoronado{
+	position: relative; 
+	margin: 0 auto;
+}
+
+#btn_casagrande img, #btn_trypcoronado img{
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#btn_casagrande img.top:hover, #btn_trypcoronado img.top:hover{
+	opacity:0;
+}
+
+
+
+
 @media only screen and (min-width : 1400px) {
 	section{
 		width: 1200px;
