@@ -11,7 +11,7 @@
 
 		<article>
 			<h2>Llegue a Panama y descubra otros mundos sin salir de la misma...</h2>
-¡Le damos la bienvenida a los  hoteles y del grupo RG PANAMA! Todos ellos han sido creados pensando en cada una de las necesidades de nuestros huéspedes. Cada uno, a su manera, le invita a gozar de un ambiente único. ¡Le damos la bienvenida al corazón de la originalidad y la buena convivencia!</p>	
+			<p>¡Le damos la bienvenida a los  hoteles y del grupo RG PANAMA! Todos ellos han sido creados pensando en cada una de las necesidades de nuestros huéspedes. Cada uno, a su manera, le invita a gozar de un ambiente único. ¡Le damos la bienvenida al corazón de la originalidad y la buena convivencia!</p>	
 		</article>
 		<article>
 			<ul>
