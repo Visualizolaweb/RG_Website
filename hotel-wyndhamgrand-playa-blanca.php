@@ -9,13 +9,14 @@
 	<meta name="keywords" 	 content="Hoteles, playa, playa blanca, whyndham, gambito, panama, vacaciones, relax, tranquilidad">
 	<meta name="author"			 content="www.visualizolaweb.com">
 	<link rel="stylesheet" 	 href="_assets/_Stylesheets/rgestilos.css"> 
+	<link rel="stylesheet" 	 href="_assets/_Stylesheets/hotelstyle.css"> 
 
 	<!-- Load Jquery -->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="_assets/_Scripts/less-1.7.0.min.js" type="text/javascript"></script>
 
 	<!-- Load Slider with Responsive -->
-	<script src="http://unslider.com/unslider.min.js"></script>
+	<script src="_assets/_Scripts/unslider.js"></script>
  	<script type="text/javascript" src="_assets/_Scripts/modernizr.custom.91120.js"></script>
 
 	<script>
@@ -42,9 +43,6 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
-							<div class="logohotel">
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/logo.png">
-				</div>
 		 		<div class="banner">
 				 	<ul>
 				        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
@@ -55,100 +53,73 @@
 			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/5.jpg')">  </li> 
 			   		</ul>
 				</div>
-
-	 	</header>	
-
-		<article id="content-box">
-	 
-			<div id="btn_casagrande" class="buttons_hotels"><a href="#"> 
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/fadebuttonIN_2.jpg" class="bottom"/>
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/fadebuttonIN_1.jpg" class="top"/></a>
-			</div>
-				
-			<div id="btn_trypcoronado" class="buttons_hotels"><a href="#"> 
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/habitacionesbtn2.jpg" class="bottom"/>
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/habitacionesbtn.jpg" class="top"/></a>
-			</div>
-						
-			<div id="btn_wgcorona" class="buttons_hotels"><a href="#"> 
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/restaurantbtn2.jpg" class="bottom"/>
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/restaurantbtn.jpg" class="top"/></a>
-			</div>
-		 	
-		 	<div id="btn_wgcorona" class="buttons_hotels"><a href="#"> 
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/btnservicios2.jpg" class="bottom"/>
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/btnservicios1.jpg" class="top"/></a>
-			</div>
-
-			<div id="experience" class="buttons_hotels"> 
-				<h2>All In Experiences para toda la Familia</h2>
-				<div class="video">
-					<iframe src="//player.vimeo.com/video/79729697" width="385" height="230" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="logohotel">
+					<img src="_assets/_Images/cabezote-logo-1.png">
 				</div>
-				 
-			</div>
+	 	</header>	
+		<article id="content_hotel">
+			 <header>
+				<nav id="menu_hotel" class="dark">
+					<ul>
+						<a href="hotel-wyndhamgrand-playa-blanca.php"><li>INICIO</li></a>
+						<a href="#rooms"><li>HABITACIONES</li></a>
+						<a href="hotel-wyndhamgrand-playa-blanca-restaurantes.php"><li>RESTAURANTES</li></a>
+						<a href="hotel-wyndhamgrand-playa-blanca-servicios.php"><li>SERVICIOS</li></a>
+						<a href="hotel-wyndhamgrand-playa-blanca-reservas.php"><li>RESERVAS</li></a>
+						<a href="hotel-wyndhamgrand-playa-blanca-galeria.php"><li>GALERIA</li></a>				
+					</ul>
+				</nav>	
+			 </header>
+			 <div class="welcome">
+				<h2>All In Experiences </h2>
+				<h3>para toda la Familia</h2>
+			 </div>
+			 <div class="column">
+				<h4>Ubicacion</h4>
+				<p>Ubicado sobre la paradisíaca Playa Blanca, el Hotel Wyndham Grand es el escenario ideal para sus próximas vacaciones. Disfrute de nuestro hotel, donde los atardeceres son naranja, la comodidad es nuestro compromiso y la diversión es para todos.</p>
+			 </div>
 
-			<div id="btn_wgcorona" class="buttons_hotels"><a href="#"> 
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/ubicacion1.jpg" class="bottom"/>
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/ubicacion.jpg" class="top"/></a>
-			</div>
- 			<div class="separador"> </div>
+			 <div class="column">
+				<h4>Conectividad</h4>
+				<p>Localizado a solo 10 minutos del aeropuerto de Río Hato Scarlet Martinez con vuelos chárter internacionales y a 90  minutos del Aeropuerto de Tocumen con conexiones diarias a más de 90 ciudades del mundo.</p>
+			 </div>
+			 
+			 <div class="adsimages">
+				<img src="_assets/_Images/Hotels/WGPlaya_blanca/adsimages.jpg">
+			 </div>
+
+			 <div id="rooms" class="rooms">
+				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
+				<h3>NUESTRAS HABITACIONES</h3>
+				<div class="both"/>
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-blanca-breath.php">
+						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms1.jpg">
+					</a>
+				</div>
+
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-blanca-deluxe.php">
+						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms2.jpg">
+					</a>
+				</div>
+
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-blanca-suite.php">
+						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms3.jpg">
+					</a>
+				</div>
+
+				<div class="roomprev nomarginright">
+					<a href="hotel-wyndhamgrand-playa-blanca-penthouse.php">
+						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms4.jpg">
+					</a>
+				</div>												
+			 </div>
 		</article>
+		
  
- <!--
-		<article id="content_page">
-			<section class="discover">
-				<h2>Llegue a Panama y descubra otros mundos sin salir de la misma...</h2>
-				<p>¡Le damos la bienvenida a los hoteles y del grupo RG PANAMA! Todos ellos han sido creados pensando en cada una de las necesidades de nuestros huéspedes. Cada uno, a su manera, le invita a gozar de un ambiente único. ¡Le damos la bienvenida al corazón de la originalidad y la buena convivencia!</p>
-			</section>
-				<section id="content_home">
-					<aside><img src="_assets/_Images/Hotels/AQUA/hotelaqua.png"></aside>
-					<div class="horizontalcol">
-						<p>El proyecto mas esperado hace su arribo en la primavera del 2012<p>
-						<h2>AQUA HOTELS & RESIDENCES</h2>
-						<p>Contará con una villa de suites, bungalows, hoteles de 5 estrellas con todo incluido "Solo para adultos" y un diseño moderno y elegante con el estilo de ASIA-PACIFICO</p>
-						<span class="learnmore">Ver Mas</span>
-					</div>
-					<div class="columnsdouble">
-							<div class="columnone">
-								<h3>
-									<ul>
-										<li class="first">LIVE</li>
-										<li class="medium">STAY</li>
-										<li class="last">PLAY</li>
-									</ul>
-								</h3>
-								<h4>MEMBERSHIP CARD</h4>
-								<p>EL lujo no es solo algo que viene con vacacionar, es un estado mental. Disfruta de beneficios de primera clase para miembros con la tarjeta LIVE • STAY • PLAY, y regálate algo todo el año.</p>
-							<span class="learnmore">Ver Mas</span>
-
-							</div>
-	
-							<div class="columntwo">
-								<h4>SUBSCRIBE TU EMAIL</h4>
-								<form name="subscribeyouremail">
-									<input type="text" name="fullname" placeholder="Nombre Completo">
-									<input type="text" name="email" placeholder="Correo Electronico">
-									<input type="submit" name="submit" value="REGISTRARSE">
-
-								</form>	
-	
-							</div>
-					</div>
-				</section>
-
-				<section id="promotions">
-					<div class="video">
-						<iframe src="//player.vimeo.com/video/79537720" width="385" height="230" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-					</div>
-					<div class="textpromo">
-						<p>conozca actuales promociones y reserve con nosotros hoy en cualquier de nuestras 4 propiedades.</p>
-						<a href="#"><img src="_assets/_Images/labeltext.png"></a>
-
-					</div>
-				</section>
-		</article> 
--->
+ 
 		<footer><?php include("_includes/footer.php");?></footer>
 	</section>
 

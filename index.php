@@ -15,7 +15,7 @@
 	<script src="_assets/_Scripts/less-1.7.0.min.js" type="text/javascript"></script>
 
 	<!-- Load Slider with Responsive -->
-	<script src="http://unslider.com/unslider.min.js"></script>
+	<script src="_assets/_Scripts/unslider.js"></script>
  	<script type="text/javascript" src="_assets/_Scripts/modernizr.custom.91120.js"></script>
 
 	<script>
