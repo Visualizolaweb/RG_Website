@@ -42,7 +42,7 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
-		 		<div class="label"><img src="_assets/_Images/Hotels/WGPlaya_blanca/logotype-label.png" alt="Enter Site Wyndham Gran Playa Blanca"></div>
+		 		<a href="hotel-wyndhamgrand-playa-blanca.php"><div class="label"><img src="_assets/_Images/Hotels/WGPlaya_blanca/logotype-label.png" alt="Enter Site Wyndham Gran Playa Blanca"></div></a>
 				<div class="banner">
 				 <ul>
 			        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
@@ -74,7 +74,10 @@
 		</article>
  
 		<article id="content_page">
-			
+			<section class="discover">
+				<h2>Llegue a Panama y descubra otros mundos sin salir de la misma...</h2>
+				<p>¡Le damos la bienvenida a los hoteles y del grupo RG PANAMA! Todos ellos han sido creados pensando en cada una de las necesidades de nuestros huéspedes. Cada uno, a su manera, le invita a gozar de un ambiente único. ¡Le damos la bienvenida al corazón de la originalidad y la buena convivencia!</p>
+			</section>
 				<section id="content_home">
 					<aside><img src="_assets/_Images/Hotels/AQUA/hotelaqua.png"></aside>
 					<div class="horizontalcol">

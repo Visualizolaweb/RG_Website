@@ -15,6 +15,11 @@ body{
 	color: #727272;
 }
  
+#wgpb{
+	background-image: url("../_Images/Hotels/WGPlaya_blanca/background.jpg");
+	background-repeat: repeat;
+}
+
 p{
 	margin-bottom: 10px;
 }
@@ -304,6 +309,38 @@ footer p{
 	float: right;
 }
 
+.discover{
+	padding:0 2% 3%;
+}
+
+.discover h2{
+	font-family: "bebas";
+	font-size: 50px;
+	font-weight: normal;
+	color: #275290;
+	}
+
+.logohotel{
+	width: 100%;
+	position: relative;
+	margin-top: -10px;
+	margin-bottom: -110px;
+	z-index: 3
+}
+
+.logohotel img{
+	width: 100%;
+}
+
+#experience{
+	text-align: center;
+}
+#experience h2{
+ font-family: "bebas";
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center; 
+}
 @media only screen and (min-width : 1400px) {
 	#wrapper{	width: 1200px;	position: relative;	margin:auto; height: 100%; 	}
 }	
