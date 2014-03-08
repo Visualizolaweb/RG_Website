@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tryp Coronado Gallery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link rel="stylesheet" href="inc/fancybox/jquery.fancybox.css">
+		<link rel="stylesheet" href="inc/gallery.css">
+		<!--[if lt IE 9]>
+		<script src="inc/html5shiv.js"></script>
+		<link rel="stylesheet" href="inc/gallery_ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		
+	<div class="container">
+		<div class="gallery">
+			<div class="filter">
+				<div>
+					<span>Filter photos by categories: </span><br>
+					<a href="#" class="sortLink selected" data-category="all">Playa Corona</a>
+					<div class="clear_floats"></div>
+				</div>
+			</div>
+
+			<div class="photos">
+				
+				<div class="thumbnail_wrap">
+					<!--Playa Corona-->
+					<a href='photos/playa-corona/playa-corona-01.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-01.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-02.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-02.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-03.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-03.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-04.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-04.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-05.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-05.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-06.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-06.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-07.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-07.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-08.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-08.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-09.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-09.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-10.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-10.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-11.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-11.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-12.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-12.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-13.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-13.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-14.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-14.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-15.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-15.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-16.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-16.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-17.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-17.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-18.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-18.jpg' alt='Wyndham Playa Corona Resort'>
+					</a><a href='photos/playa-corona/playa-corona-19.jpg' class='thumbnail' data-categories='playa_corona' title='Wyndham Playa Corona Resort'>
+						<img src='photos/playa-corona/playa-corona-thum-19.jpg' alt='Wyndham Playa Corona Resort'>
+					</a>
+					<!--END Playa Corona-->
+				</div><!-- .thumbnail_wrap end -->
+
+			</div><!-- .photos end -->
+
+		</div><!-- .gallery end -->
+
+	</div><!-- .container end -->
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="inc/fancybox/jquery.fancybox.js"></script>
+	<script src="inc/gallery.js"></script>
+	</body>
+</html>
