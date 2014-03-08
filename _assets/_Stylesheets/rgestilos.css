@@ -29,10 +29,10 @@ p{
 	height: 100%;
 	}
 
-header,nav{
+header,#menuppal{
 	width: 100%;}
 
-nav{
+#menuppal{
 	background-color: #313030;
 	height: 70px;}
 
@@ -46,24 +46,24 @@ h1{
 	text-indent: -9999px;
 	float: left;}
 
-nav ul{
+#menuppal ul{
 	float: right;
 	margin-right: 20px;
 }
 
-nav ul li{
+#menuppal ul li{
 	float: left;
 	margin-right: 20px;
 	margin-top: 25px;
 	color: #f0f2f6;
 }	
 
-nav ul li a{
+#menuppal ul li a{
 	color: inherit;
 	text-decoration: none;
 }
 
-nav ul .socialicon li{
+#menuppal ul .socialicon li{
 	background-image: url("../_Images/iconsocial.png");
 	background-repeat: no-repeat;
 	width: 27px;
@@ -73,10 +73,10 @@ nav ul .socialicon li{
 	margin-top: 20px;
 } 
 
-nav ul .btnt li{
+#menuppal ul .btnt li{
 	background-position: -32px 0;}
 
-nav ul .btny li{
+#menuppal ul .btny li{
 	background-position: -60px 0;}
 
 .banner {
@@ -323,8 +323,7 @@ footer p{
 .logohotel{
 	width: 100%;
 	position: relative;
-	margin-top: -10px;
-	margin-bottom: -110px;
+	margin-top: -18%; 
 	z-index: 3
 }
 
@@ -332,15 +331,14 @@ footer p{
 	width: 100%;
 }
 
-#experience{
-	text-align: center;
+.both{
+	clear: both;
 }
-#experience h2{
- font-family: "bebas";
-	font-size: 25px;
-	font-weight: normal;
-	text-align: center; 
+
+.nomarginright{
+	margin-right: 0 !important;
 }
+ 
 @media only screen and (min-width : 1400px) {
 	#wrapper{	width: 1200px;	position: relative;	margin:auto; height: 100%; 	}
 }	
@@ -349,12 +347,12 @@ footer p{
 
 /*** MENU RESPONSIVE **/
 
-nav{border-bottom: 0px; z-index:9999; float: left; position:relative; height: auto;}
-nav ul{display: none; height: auto; margin-right: 40px; }
-nav ul li{float: none; margin-top: 10px; text-align: right; }
-nav ul .socialicon li{text-indent: -9999px; float: left; text-align: left; left: 50px; position: relative; margin-bottom: 20px;} 
-nav a#pull {	display: block;	background-color:#313030; width: 100%;	position: relative;	}
-nav a#pull:after { content:"";	background: url('../_Images/nav-icon.png') no-repeat; width: 30px;	height: 30px;	display: inline-block; position: absolute; right: 15px;	top: 10px; }
+#menuppal{border-bottom: 0px; z-index:9999; float: left; position:relative; height: auto;}
+#menuppal ul{display: none; height: auto; margin-right: 40px; }
+#menuppal ul li{float: none; margin-top: 10px; text-align: right; }
+#menuppal ul .socialicon li{text-indent: -9999px; float: left; text-align: left; left: 50px; position: relative; margin-bottom: 20px;} 
+#menuppal a#pull {	display: block;	background-color:#313030; width: 100%;	position: relative;	}
+#menuppal a#pull:after { content:"";	background: url('../_Images/nav-icon.png') no-repeat; width: 30px;	height: 30px;	display: inline-block; position: absolute; right: 15px;	top: 10px; }
 
 }
 

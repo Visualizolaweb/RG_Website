@@ -1,4 +1,4 @@
-<nav>
+<nav id="menuppal">
 	<h1>RG Group - Hotels & Inmobiliaria</h1>
 	<ul>
 		<li><a href="index.php" 			title="INICIO">INICIO</a></li>
