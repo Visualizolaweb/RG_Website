@@ -15,7 +15,7 @@
 			   o escribanos a <a href="mailto:ventas@rgpanama.com" target="_blank">ventas@rgpanama.com</a></p>		
 		</article>
 		<article>
-			<iframe src="//player.vimeo.com/video/77314775" width="900" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="//player.vimeo.com/video/77314775" width="385" height="230"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</article>
 	</section>
 </body>

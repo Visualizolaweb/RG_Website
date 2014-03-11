@@ -339,7 +339,7 @@ footer p{
 	margin-right: 0 !important;
 }
  
-@media only screen and (min-width : 1400px) {
+@media only screen and (min-width : 1367px) {
 	#wrapper{	width: 1200px;	position: relative;	margin:auto; height: 100%; 	}
 }	
 
@@ -356,4 +356,124 @@ footer p{
 
 }
 
+.tarjetas{
+  width: 40%; 
+  float: left;
+}
+
+.tarjetas img{
+	width: 100%;
+}
+
+.formulario{ 
+	width: 25%;
+	margin: 0 3%;
+	height: 100%;
+  float: left;
+}
+
+.formulario form{
+	background-color: #e0e0e0;
+	padding: 10px;}
+
+.formulario form input[type="text"],.formulario form textarea{
+	width: 95%;
+	padding:  3px 5px;
+	border:1px solid #c0c0c0;
+	font-family: Arial;
+	text-transform: capitalize;
+}
+
+.formulario form input[type="submit"]{
+	background-color: #666;
+	border:none;
+	width: 100%;
+	margin: auto;
+	padding: 8px 0; 
+	font-family: "bebas";
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.formulario form input[type="submit"]:hover{
+	background-color: #69cce5
+}
+
+.formulario h2{
+ font-family: "bebas";
+ font-size: 40px;
+ font-weight: normal} 
+
+ #map-canvas {
+        height: 500px;
+        margin: 0px;
+        padding: 0px
+      }
+
+ .bgform{
+ 	width: 310px;
+ 	height: 439px;
+ 	background: url("../_Images/background-form.png") no-repeat;
+ 	position: relative;
+ 	z-index: 100;
+ 	margin-top: -230px; 
+ 	float: left;
+ 	padding-top: 40px;
+ 	padding-left: 25px;
+ 	padding-right: 25px; 
+ }
+
+.bgform h4{
+	font-family: "bebas";
+	font-size: 40px;
+	font-weight: normal;
+	color: #c1c1c1;
+	text-align: center;}
+
+
+.bgform input,
+.bgform select,
+.bgform textarea{
+	width: 95%;
+	margin: auto;
+	position: relative;
+	margin-top: 10px;
+	padding: 5px;
+	font-family: "Arial Narrow";
+	font-size: 15px;
+	text-transform:capitalize;
+	color: #b0b0b0;
+}
+
+.bgform select{
+	width: 100%;
+	cursor: pointer;
+}
+
+.bgform textarea{
+	width: 96%;
+}
+
+.bgform input[type="submit"]{
+	background-color: #666;
+	border:none;
+	width: 100%; 
+	padding: 8px 0; 
+	font-family: "bebas";
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.bgform  input[type="submit"]:hover{
+	background-color: #69cce5
+}
+
+.content_form img{
+	width: 100%;
+	max-width: 706px;
+}
 /*@media only screen and (min-width : 620px) {*/

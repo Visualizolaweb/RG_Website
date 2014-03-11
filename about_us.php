@@ -95,7 +95,7 @@
 								</h3>
 								<h4>MEMBERSHIP CARD</h4>
 								<p>EL lujo no es solo algo que viene con vacacionar, es un estado mental. Disfruta de beneficios de primera clase para miembros con la tarjeta LIVE • STAY • PLAY, y regálate algo todo el año.</p>
-							<span class="learnmore">Ver Mas</span>
+							<span class="learnmore"><a href="membresia-rg.php">Ver Mas</a></span>
 
 							</div>
 	

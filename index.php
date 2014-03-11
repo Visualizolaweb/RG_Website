@@ -84,7 +84,7 @@
 						<p>El proyecto mas esperado hace su arribo en la primavera del 2012<p>
 						<h2>AQUA HOTELS & RESIDENCES</h2>
 						<p>Contará con una villa de suites, bungalows, hoteles de 5 estrellas con todo incluido "Solo para adultos" y un diseño moderno y elegante con el estilo de ASIA-PACIFICO</p>
-						<span class="learnmore">Ver Mas</span>
+						<span class="learnmore"><a href="aqua-residences-and-hotels.php">Ver Mas</a></span>
 					</div>
 					<div class="columnsdouble">
 							<div class="columnone">
@@ -97,7 +97,7 @@
 								</h3>
 								<h4>MEMBERSHIP CARD</h4>
 								<p>EL lujo no es solo algo que viene con vacacionar, es un estado mental. Disfruta de beneficios de primera clase para miembros con la tarjeta LIVE • STAY • PLAY, y regálate algo todo el año.</p>
-							<span class="learnmore">Ver Mas</span>
+							<span class="learnmore"><a href="membresia-rg.php">Ver Mas</a></span>
 
 							</div>
 	

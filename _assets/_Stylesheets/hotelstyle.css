@@ -1,5 +1,5 @@
 #content_hotel{
-	background-color: #FFFFFF;
+  background-color: #FFFFFF;
   margin-top: -3%;
   padding: 0 3% 3%;
   position: relative;
@@ -50,7 +50,16 @@
 	margin-top: 10px;
 }
 
-.column h4{ 
+.column2{
+	width: 72%;
+	float: left;
+	text-align: justify;
+	margin-right: 3%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.column h4, .column2 h4{ 
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -63,10 +72,19 @@
 	position: relative;
 }
 
-.adsimages img{
+.adsimages2{
+	width: 60%;
+	float: left;
+}
+.adsimages img, .adsimages2 img{
 	width: 100%;
 }
-
+ 
+.video_aqua{
+	width: 35%;
+	float: left;
+	margin-left: 3%;
+}
 .rooms{
 	position: relative;
 	margin-top: 20px;
