@@ -7,7 +7,7 @@
 
 	<meta name="description" content="Ven y disfruta de las mejores vacaciones de tu vida, con RG Group podrás escoger tu destino en el mundo según tus preferencias, desde playas hasta montañas">
 	<meta name="keywords" 	 content="Hoteles, playa, playa blanca, whyndham, gambito, panama, vacaciones, relax, tranquilidad">
-	<meta name="author"		 content="www.visualizolaweb.com">
+	<meta name="author"			 content="www.visualizolaweb.com">
 	<link rel="stylesheet" 	 href="_assets/_Stylesheets/rgestilos.css"> 
 	<link rel="stylesheet" 	 href="_assets/_Stylesheets/hotelstyle.css"> 
 
@@ -43,61 +43,59 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
+
 		 	<?php include("_includes/cabezote_tryp_coronado.php");?>
 	 	</header>	
 		<article id="content_hotel">
 			 <header>
 				<nav id="menu_hotel" class="dark">
 					<ul>
-						<a href="hotel-wyndhamgrand-playa-corona.php"><li>INICIO</li></a>
-						<a href="#rooms"><li>HABITACIONES</li></a>
-						<a href="hotel-wyndhamgrand-playa-corona-restaurantes.php"><li>RESTAURANTES</li></a>
-						<a href="hotel-wyndhamgrand-playa-corona-servicios.php"><li>SERVICIOS</li></a>
+						<a href="hotel-tryp-coronado.php"><li>INICIO</li></a>
+						<a href="hotel-tryp-coronado-rooms.php"><li>HABITACIONES</li></a>
+						<a href="hotel-tryp-coronado-restaurante.php"><li>RESTAURANTES</li></a>
+						<a href="hotel-tryp-coronado-servicios.php"><li>SERVICIOS</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-reservas.php"><li>RESERVAS</li></a>
-						<a href="gallery/playa-corona-gallery.php"><li>GALERIA</li></a>				
+						<a href="gallery/tryp-coronado-gallery.php"><li>GALERIA</li></a>	
 					</ul>
 				</nav>	
 			 </header>
-			 <div class="welcome">
-				<h2>Tryp Playa Coronado, </h2>
-				<h3>el lugar para ver y ser visto...</h2>				
-			 </div>
-			 <div class="column">
-					<p>Para nosotros es tan importante las experiencias como el destino. Por eso le traemos en el corazón de Coronado, epicentro de la diversión en el área de playas, el nuevo Tryp Playa Coronado.</p>
-				
-			 </div>
-
-			 <div class="column">
-				<p>Si busca experiencias únicas, durante el día diviértase en nuestras DJ Pool Parties y almuerce en nuestro Bites Tapas Bar acompañado de los mejores vinos espumantes
-				Al caer la noche cene en nuestro Dragon Asian Bistro donde los locales y turistas se mezclan, y terminan la noche bailando hasta el amanecer en el único Rooftop lounge Bar del área.</p>
-			 </div>
 			 
-			 <div class="adsimages">
-				<img src="_assets/_Images/Hotels/WGCORONA/adsimages.jpg">
-			 </div>
 
-			<div id="rooms" class="rooms">
-				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
+			 <div id="rooms" class="rooms">
+ 
 				<h3>NUESTRAS HABITACIONES</h3>
-				<div class="both"/>
-				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-corona-suite.php">
-						<img src="_assets/_Images/Hotels/WGCORONA/rooms/room-one.jpg">
-					</a>
-				</div>
+			 	<p class="both">	</br>
+			 		All Suites Hotel de 130 habitaciones que le ofrecerá la comodidad que busca en su próximo viaje de negocio o placer. Todas nuestras habitaciones están equipadas con:</p>
 
-				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-corona-family.php">
-						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-family.jpg">
-					</a>
-				</div>
-				
-				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-corona-two-suite.php">
-						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-two-suite.jpg">
-					</a>
-				</div>										
-			</div>
+					<ul class="listroom">
+						<li>HD LCD TV 32"</li>
+						<li>Cafetera </li>
+						<li>Mini-nevera</li>
+						<li>Aire acondicionado</li>
+						<li>Teléfono</li>
+						<li>Secador de cabello</li>
+						<li>110 V</li>
+						<li>Caja de seguridad</li>
+						<li>Tabla de planchar y plancha</li>
+						<li>Cocineta</li>
+						<li>Microondas</li>
+					</ul>
+				<p class="both">Nuestras suites están divididas en:</p>
+
+ 				<p><strong>Jr Suite:</strong> 1 cama queen o 2 camas twin sujeto a disponibilidad, capacidad de 2 personas</p>
+ 				<p><strong>One bedroom Suite:</strong> 1 cama full y sala de estar , capacidad de 2 personas</p>
+ 				<p><strong>Family Suite:</strong> Disfruta en familia, 1 cama full + 1 cama twin, capacidad de 3 personas</p>
+ 				<p><strong>Fitness Suite:</strong> En busca de una estadía saludable? Esta suite está equipada con caminadora, sala de estar y 1 cama full. Capacidad de 2 personas.</p>
+ 				<p><strong>Media Suite:</strong> Exclusiva de la marca TRYP by Wyndham para nuestros fanáticos de la tecnología contamos con una suite diseñada con plasma de 55” y  teatro en casa, 1 cama full y sala de estar. Capacidad de 2 personas
+</p>
+ 
+ 
+ 
+ </p>
+</br>
+				 		
+															
+			 </div>
 		</article>
 		
  

@@ -44,23 +44,23 @@
 			<?php include("_includes/menu.php");?>
 		 		<a href="hotel-wyndhamgrand-playa-blanca.php"><div class="label"><img src="_assets/_Images/Hotels/WGPlaya_blanca/logotype-label.png" alt="Enter Site Wyndham Gran Playa Blanca"></div></a>
 				<div class="banner">
-				 <ul>
-			        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
+					 <ul>
+				        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
 			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/2.jpg')">  </li> 
 			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/3.jpg')">  </li> 
 			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/4.jpg')">  </li> 
-			   </ul>
+				   	</ul>
 				</div>
 	 	</header>	
 
 		<article id="content-box">
 	 
-			<div id="btn_casagrande" class="buttons_hotels"><a href="#"> 
+			<div id="btn_casagrande" class="buttons_hotels"><a href="hotel-casa-grande.php"> 
 				<img src="_assets/_Images/Hotels/CASA_GRANDE/fadebutton_2.jpg" class="bottom"/>
 				<img src="_assets/_Images/Hotels/CASA_GRANDE/fadebutton_1.jpg" class="top"/></a>
 			</div>
 				
-			<div id="btn_trypcoronado" class="buttons_hotels"><a href="hotel-wyndhamgrand-playa-tryp-coronado.php"> 
+			<div id="btn_trypcoronado" class="buttons_hotels"><a href="hotel-tryp-coronado.php"> 
 				<img src="_assets/_Images/Hotels/TRYPCORONADO/fadebutton_2.jpg" class="bottom"/>
 				<img src="_assets/_Images/Hotels/TRYPCORONADO/fadebutton_1.jpg" class="top"/></a>
 			</div>
@@ -118,11 +118,11 @@
 					<div class="video">
 						<iframe src="//player.vimeo.com/video/79537720" width="385" height="230" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 					</div>
-					<div class="textpromo">
+					<!--<div class="textpromo">
 						<p>conozca actuales promociones y reserve con nosotros hoy en cualquier de nuestras 4 propiedades.</p>
 						<a href="#"><img src="_assets/_Images/labeltext.png"></a>
 
-					</div>
+					</div>-->
 				</section>
 		</article> 
 

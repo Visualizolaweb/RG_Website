@@ -84,9 +84,18 @@
 				<p>Localizado a solo 10 minutos del aeropuerto de Río Hato Scarlet Martinez con vuelos chárter internacionales y a 90  minutos del Aeropuerto de Tocumen con conexiones diarias a más de 90 ciudades del mundo.</p>
 			 </div>
 			 
-			 <div class="adsimages">
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/adsimages.jpg">
+			 		 	 <div class="adsimages2">
+				<img src="_assets/_Images/Hotels/WGPlaya_blanca/bn1.jpg">
 			 </div>
+			
+			 <div class="video_aqua">
+				<iframe src="//player.vimeo.com/video/79729697"width="100%" height="260"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			 </div> 
+ 
+			 <div class="adsimages"> 
+				<img src="_assets/_Images/Hotels/WGPlaya_blanca/bn2.jpg">
+			 </div>	
+ 
 
 			 <div id="rooms" class="rooms">
 				<H2>Breath, Eat, Feel… Wyndham Moments</H2>

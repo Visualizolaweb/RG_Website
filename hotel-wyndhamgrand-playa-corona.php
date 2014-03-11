@@ -59,10 +59,10 @@
 				</nav>	
 			 </header>
 			 <div class="welcome">
-				<h2>"Relax" All Inclusive</h2>
-				<h3>para toda la Familia</h2>
+				<h2>All Inclusive</h2>
+				<h3>& "Relax" para toda la Familia</h2>
 			 </div>
-			 <div class="column">
+			 <div class="column2">
 				<h4>Ubicacion</h4>
 				<p> Ubicado en Playa Corona a solo 75 minutos de la ciudad de Panamá, famosa por sus olas y color azul, es la playa ideal para sus deportes acuáticos, surf o para pasar la tarde en familia en la arena.</p>
 			 </div>
@@ -72,13 +72,22 @@
 				<p>Localizado a solo 10 minutos del aeropuerto de Río Hato Scarlet Martinez con vuelos chárter internacionales y a 90  minutos del Aeropuerto de Tocumen con conexiones diarias a más de 90 ciudades del mundo.</p>
 			 </div>-->
 			 
-			 <div class="adsimages">
-				<img src="_assets/_Images/Hotels/WGCORONA/adsimages.jpg">
+			 <div class="adsimages2">
+				<img src="_assets/_Images/Hotels/WGCORONA/bn1.jpg">
 			 </div>
+			
+			 <div class="video_aqua">
+				<iframe src="//player.vimeo.com/video/79679616"width="100%" height="260"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			 </div> 
+ 
+			 <div class="adsimages"> 
+				<img src="_assets/_Images/Hotels/WGCORONA/bn2.jpg">
+			 </div>	
+ 
 
 			<div id="rooms" class="rooms">
 				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
-				<h3>NUESTRAS HABITACIONES</h3>
+				<h3>NUESTRAS HABITACIONES</h3></br></br></br></br></br></br>
 				<div class="both"/>
 				<div class="roomprev">
 					<a href="hotel-wyndhamgrand-playa-corona-suite.php">

@@ -9,14 +9,14 @@ body,html{
 	font-stretch: condensed;}
 
 body{
-	background-image: url("../_Images/background.jpg");
-	background-repeat: repeat-x;
+	background-image: url("../_Images/background6.png");
+	background-repeat: repeat;
 	background-color: #0e0e0e;
 	color: #727272;
 }
  
 #wgpb{
-	background-image: url("../_Images/Hotels/WGPlaya_blanca/background.jpg");
+	background-image: url("../_Images/background5.png");
 	background-repeat: repeat;
 }
 
