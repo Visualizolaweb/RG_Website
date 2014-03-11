@@ -60,12 +60,12 @@
 				<img src="_assets/_Images/Hotels/CASA_GRANDE/fadebutton_1.jpg" class="top"/></a>
 			</div>
 				
-			<div id="btn_trypcoronado" class="buttons_hotels"><a href="#"> 
+			<div id="btn_trypcoronado" class="buttons_hotels"><a href="hotel-wyndhamgrand-playa-tryp-coronado"> 
 				<img src="_assets/_Images/Hotels/TRYPCORONADO/fadebutton_2.jpg" class="bottom"/>
 				<img src="_assets/_Images/Hotels/TRYPCORONADO/fadebutton_1.jpg" class="top"/></a>
 			</div>
 						
-			<div id="btn_wgcorona" class="buttons_hotels"><a href="#"> 
+			<div id="btn_wgcorona" class="buttons_hotels"><a href="hotel-wyndhamgrand-playa-corona.php"> 
 				<img src="_assets/_Images/Hotels/WGCORONA/fadebutton_2.jpg" class="bottom"/>
 				<img src="_assets/_Images/Hotels/WGCORONA/fadebutton_1.jpg" class="top"/></a>
 			</div>

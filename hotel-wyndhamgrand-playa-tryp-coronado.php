@@ -7,7 +7,7 @@
 
 	<meta name="description" content="Ven y disfruta de las mejores vacaciones de tu vida, con RG Group podrás escoger tu destino en el mundo según tus preferencias, desde playas hasta montañas">
 	<meta name="keywords" 	 content="Hoteles, playa, playa blanca, whyndham, gambito, panama, vacaciones, relax, tranquilidad">
-	<meta name="author"			 content="www.visualizolaweb.com">
+	<meta name="author"		 content="www.visualizolaweb.com">
 	<link rel="stylesheet" 	 href="_assets/_Stylesheets/rgestilos.css"> 
 	<link rel="stylesheet" 	 href="_assets/_Stylesheets/hotelstyle.css"> 
 
@@ -43,85 +43,61 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
-			<?php include("_includes/cabezote_pb_corona.php");?>
+		 	<?php include("_includes/cabezote_tryp_coronado.php");?>
 	 	</header>	
 		<article id="content_hotel">
 			 <header>
 				<nav id="menu_hotel" class="dark">
 					<ul>
 						<a href="hotel-wyndhamgrand-playa-corona.php"><li>INICIO</li></a>
-						<a href="hotel-wyndhamgrand-playa-corona.php#rooms"><li>HABITACIONES</li></a>
+						<a href="#rooms"><li>HABITACIONES</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-restaurantes.php"><li>RESTAURANTES</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-servicios.php"><li>SERVICIOS</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-reservas.php"><li>RESERVAS</li></a>
-						<a href="gallery/playa-corona-gallery.php"><li>GALERIA</li></a>					
+						<a href="gallery/playa-corona-gallery.php"><li>GALERIA</li></a>				
 					</ul>
 				</nav>	
 			 </header>
-			 
-
-			 <div id="rooms" class="rooms">
-
-				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
-				<h3>NUESTROS RESTAURANTES</h3>
-			 	<img src="_assets/_Images/Hotels/WGCORONA/rooms/addsrestaurante.jpg" width="100%">
-				<p class="both">	</br>¿Reservaciones, códigos de vestimenta, limitaciones? Nada de eso aplica en Wyndham Playa Corona.<br> Siéntase en casa en nuestros restaurantes y bares. </p>
-
-			  <div class="both "></br>
-				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGCORONA/rooms/Brisas-buffet.jpg"> 
-				</div>
-				<div class="textorestaurante">
-					<h2>Las Brisas Buffet</h2> 
-					<p>Desayuno, Almuerzo y Cena ofreciendo menús internacionales..</p>
-					<ul class="listroom">
-						<li>Horario: 7:00 am - 10:00 am / 12:00pm - 3:00pm / 7:00pm a 10:00pm </li>
-					</ul>
-				</div>
-			  </div>
- 
- 			  <div class="both"></br>
-				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGCORONA/rooms/Buena-Vista.jpg"> 
-				</div>
-				<div class="textorestaurante">
-					<h2>Buena Vista Rooftop Restaurant & Bar</h2> 
-					<p>ofreciendo un menú a la carta tipo grill.</p>
-					<ul class="listroom">
-						<li>Restaurante: horario de 7:00 pm a 10:00 pm </li>
-						<li>Bar: horario de 10:00 am a 1:30 am</li>
-					</ul>
-				</div>
-			  </div>
- 
- 			  <div class="both"></br>
-				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGCORONA/rooms/beach-club-korals.jpg"> 
-				</div>
-				<div class="textorestaurante">
-					<h2>Beach Club Korals</h2> 
-					<p>Menú de snack, música, bar y actividades de Playa todo el día.</p>
-				
-					<ul class="listroom">
-						<li>Horario: 10:00 am - 5:00 pm </li>
-					</ul>
-				</div>
-			  </div>
- 
- 			  <div class="both"></br>
-				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGCORONA/rooms/crown-cafe.jpg"> 
-				</div>
-				<div class="textorestaurante">
-					<h2>Crown Cafe (lobby)</h2> 
-					<p>Menú de pastelería dulces y salados con variedad de café y té.</p>
-				
-					<ul class="listroom">
-						<li>Horario: 10:00 am - 6:00 pm</li>
-					</ul>
-				</div>
-			  </div>
+			 <div class="welcome">
+				<h2>Tryp Playa Coronado, </h2>
+				<h3>el lugar para ver y ser visto...</h2>				
 			 </div>
+			 <div class="column">
+					<p>Para nosotros es tan importante las experiencias como el destino. Por eso le traemos en el corazón de Coronado, epicentro de la diversión en el área de playas, el nuevo Tryp Playa Coronado.</p>
+				
+			 </div>
+
+			 <div class="column">
+				<p>Si busca experiencias únicas, durante el día diviértase en nuestras DJ Pool Parties y almuerce en nuestro Bites Tapas Bar acompañado de los mejores vinos espumantes
+				Al caer la noche cene en nuestro Dragon Asian Bistro donde los locales y turistas se mezclan, y terminan la noche bailando hasta el amanecer en el único Rooftop lounge Bar del área.</p>
+			 </div>
+			 
+			 <div class="adsimages">
+				<img src="_assets/_Images/Hotels/WGCORONA/adsimages.jpg">
+			 </div>
+
+			<div id="rooms" class="rooms">
+				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
+				<h3>NUESTRAS HABITACIONES</h3>
+				<div class="both"/>
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-corona-suite.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/room-one.jpg">
+					</a>
+				</div>
+
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-corona-family.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-family.jpg">
+					</a>
+				</div>
+				
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-corona-two-suite.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-two-suite.jpg">
+					</a>
+				</div>										
+			</div>
 		</article>
 		
  

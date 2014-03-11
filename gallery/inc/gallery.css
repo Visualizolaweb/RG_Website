@@ -1,27 +1,10 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #4C1B1B;
-}
+ 
 
-p {
-	margin: 0px 0px 1em 0px;
-}
-
-a {
-	outline: none;
-}
-
-.container {
-	width: 90%;
-	margin: 1em auto;
-	padding: 1em;
-	background-color: #F6E497;
-	border: 1px solid #FCFAE1;
-	border-radius: 10px;
-	box-shadow: 0px 0px 10px #BD8D46;
-	position: relative;
+.container { 
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    background: #fff;
 }
 
 .title {
@@ -67,11 +50,11 @@ a {
 	}
 
 	.filter a:hover {
-		color: #B9121B;
+		color: #727272;
 	}
 
 	.filter a.selected {
-		color: #B9121B;
+		color: #727272;
 		background: url('../img/checked.png') no-repeat 0px 3px;
 	}
 

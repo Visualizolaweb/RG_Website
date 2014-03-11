@@ -54,7 +54,7 @@
 						<a href="hotel-wyndhamgrand-playa-corona-restaurantes.php"><li>RESTAURANTES</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-servicios.php"><li>SERVICIOS</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-reservas.php"><li>RESERVAS</li></a>
-						<a href="hotel-wyndhamgrand-playa-corona-galeria.php"><li>GALERIA</li></a>				
+						<a href="gallery/playa-corona-gallery.php"><li>GALERIA</li></a>					
 					</ul>
 				</nav>	
 			 </header>
