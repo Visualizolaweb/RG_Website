@@ -43,19 +43,7 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
-		 		<div class="banner">
-				 	<ul>
-				        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/9.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/8.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/7.jpg')">  </li>
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/6.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/5.jpg')">  </li> 
-			   		</ul>
-				</div>
-				<div class="logohotel">
-					<img src="_assets/_Images/cabezote-logo-pb-corona.png">
-				</div>
+		 	<?php include("_includes/cabezote_pb_corona.php");?>
 	 	</header>	
 		<article id="content_hotel">
 			 <header>
@@ -71,7 +59,7 @@
 				</nav>	
 			 </header>
 			 <div class="welcome">
-				<h2>All In Experiences </h2>
+				<h2>"Relax" All Inclusive</h2>
 				<h3>para toda la Familia</h2>
 			 </div>
 			 <div class="column">
@@ -85,37 +73,31 @@
 			 </div>-->
 			 
 			 <div class="adsimages">
-				<img src="_assets/_Images/Hotels/WGPlaya_blanca/adsimages.jpg">
+				<img src="_assets/_Images/Hotels/WGCORONA/adsimages.jpg">
 			 </div>
 
-			 <div id="rooms" class="rooms">
+			<div id="rooms" class="rooms">
 				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
 				<h3>NUESTRAS HABITACIONES</h3>
 				<div class="both"/>
 				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-corona-breath.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms1.jpg">
-					</a>
-				</div>
-
-				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-corona-deluxe.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms2.jpg">
-					</a>
-				</div>
-
-				<div class="roomprev">
 					<a href="hotel-wyndhamgrand-playa-corona-suite.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms3.jpg">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/room-one.jpg">
 					</a>
 				</div>
 
-				<div class="roomprev nomarginright">
-					<a href="hotel-wyndhamgrand-playa-corona-penthouse.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms4.jpg">
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-corona-family.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-family.jpg">
 					</a>
-				</div>												
-			 </div>
+				</div>
+				
+				<div class="roomprev">
+					<a href="hotel-wyndhamgrand-playa-corona-two-suite.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-two-suite.jpg">
+					</a>
+				</div>										
+			</div>
 		</article>
 		
  

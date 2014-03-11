@@ -43,19 +43,7 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
-		 		<div class="banner">
-				 	<ul>
-				        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/9.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/8.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/7.jpg')">  </li>
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/6.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/5.jpg')">  </li> 
-			   		</ul>
-				</div>
-				<div class="logohotel">
-					<img src="_assets/_Images/cabezote-logo-pb-corona.png">
-				</div>
+			<?php include("_includes/cabezote_pb_corona.php");?>
 	 	</header>	
 		<article id="content_hotel">
 			 <header>
@@ -76,97 +64,60 @@
 
 				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
 				<h3>NUESTROS RESTAURANTES</h3>
-			 	<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/cover5.jpg" width="100%">
-				<p class="both">	</br>Invitamos a su paladar a experimentar un viaje por el mundo con la oferta gastronómica de nuestros restaurantes. </p>
+			 	<img src="_assets/_Images/Hotels/WGCORONA/rooms/addsrestaurante.jpg" width="100%">
+				<p class="both">	</br>¿Reservaciones, códigos de vestimenta, limitaciones? Nada de eso aplica en Wyndham Playa Corona.<br> Siéntase en casa en nuestros restaurantes y bares. </p>
 
 			  <div class="both "></br>
 				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/restaurant1.jpg"> 
+					<img src="_assets/_Images/Hotels/WGCORONA/rooms/Brisas-buffet.jpg"> 
 				</div>
 				<div class="textorestaurante">
-					<h2>RESTAURANTE EL MUELLE</h2> 
-					<p >Disfrute de la abundancia y variedad de platos en nuestros 2 restaurantes buffet frente al mar, donde los desayunos y almuerzos son internacionales y donde las noches se transforman en el escenario de nuestras fiestas gastronómicas temáticas.</p>
+					<h2>Las Brisas Buffet</h2> 
+					<p>Desayuno, Almuerzo y Cena ofreciendo menús internacionales..</p>
 					<ul class="listroom">
-						<li>Horario: 7:00 am - 10:00 am / 12:00pm - 3:00pm </li>
-						<li>Sin Reserva</li>
+						<li>Horario: 7:00 am - 10:00 am / 12:00pm - 3:00pm / 7:00pm a 10:00pm </li>
 					</ul>
 				</div>
 			  </div>
  
  			  <div class="both"></br>
 				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/restaurant2.jpg"> 
+					<img src="_assets/_Images/Hotels/WGCORONA/rooms/Buena-Vista.jpg"> 
 				</div>
 				<div class="textorestaurante">
-					<h2>RESTAURANTE Oasis snack bar</h2> 
-					<p >disfrute del placer de comer entre horas en nuestro “ALL IN HEALTHY EXPERIENCE”, que ofrece una variedad de batidos de frutas naturales, wraps y más.</p>
+					<h2>Buena Vista Rooftop Restaurant & Bar</h2> 
+					<p>ofreciendo un menú a la carta tipo grill.</p>
 					<ul class="listroom">
-						<li>Horario: 10:00 am – 5:00 pm </li>
-						<li>Sin Reserva</li>
+						<li>Restaurante: horario de 7:00 pm a 10:00 pm </li>
+						<li>Bar: horario de 10:00 am a 1:30 am</li>
 					</ul>
 				</div>
 			  </div>
  
  			  <div class="both"></br>
 				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/restaurant3.jpg"> 
+					<img src="_assets/_Images/Hotels/WGCORONA/rooms/beach-club-korals.jpg"> 
 				</div>
 				<div class="textorestaurante">
-					<h2>RESTAURANTE Beach Club snack bar</h2> 
-					<p >para el que busca el placer de pecar entre horas con variedad de hamburguesas, pollo asado, pizza y más.</p>
+					<h2>Beach Club Korals</h2> 
+					<p>Menú de snack, música, bar y actividades de Playa todo el día.</p>
 				
 					<ul class="listroom">
-						<li>Horario: 10:00 am – 5:00 pm </li>
-						<li>Sin Reserva</li>
-					</ul>
-				</div>
-			  </div>
-
-<p class="both"></br>En las noches preparase para vivir una experiencia única en nuestros All In Restaurantes a la Carta, diseñados especialmente para usted: </p>
- 
- 			  <div class="both"></br>
-				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/restaurant4.jpg"> 
-				</div>
-				<div class="textorestaurante">
-					<h2>RESTAURANTE Zenzai</h2> 
-					<p >Ubicado en el Lobby del Hotel le ofrecerá una variedad de platos deliciosamente exóticos que son representativos de Tailandia, Japón, China, Vietnam; acompañados del mejor Sushi Bar del área.</p>
-				
-					<ul class="listroom">
-						<li>Horario: 6:30 pm – 10:30 pm (Zenzai) </li>
-						<li>Horario: 10:00 am – 1:00 am (Lobby Bar)</li>
-						<li>Con Reserva</li>
-					</ul>
-				</div>
-			  </div>
-
- 
- 			  <div class="both"></br>
-				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/restaurant5.jpg"> 
-				</div>
-				<div class="textorestaurante">
-					<h2>RESTAURANTE La Fiorentina </h2> 
-					<p >Ubicado en el Segundo piso del Lobby, le ofrecerá un ambiente familiar donde encontrara una deliciosa selección de platos tradicionales de la cocina del Sur de Italia.</p>
-				
-					<ul class="listroom">
-						<li>Horario: 6:30 PM - 10:30 PM</li>
-						<li>Con Reserva</li>
+						<li>Horario: 10:00 am - 5:00 pm </li>
 					</ul>
 				</div>
 			  </div>
  
  			  <div class="both"></br>
 				<div class="roomprev"> 
-					<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/restaurant6.jpg"> 
+					<img src="_assets/_Images/Hotels/WGCORONA/rooms/crown-cafe.jpg"> 
 				</div>
 				<div class="textorestaurante">
-					<h2>RESTAURANTE La Fiorentina </h2> 
-					<p >Cocina del Caribe. En las Palmas encontrara los platos típicos de la región del caribe, como Pescado Frito, Patacones, Arroz con coco y otras delicias mas que podrá compartir con su familia o pareja.</p>
+					<h2>Crown Cafe (lobby)</h2> 
+					<p>Menú de pastelería dulces y salados con variedad de café y té.</p>
 				
 					<ul class="listroom">
-						<li>Horario: 6:30 PM - 10:30 PM</li>
-						<li>Con Reserva</li>
+						<li>Horario: 10:00 am - 6:00 pm</li>
 					</ul>
 				</div>
 			  </div>

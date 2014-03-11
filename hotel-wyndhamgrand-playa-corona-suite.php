@@ -43,19 +43,7 @@
 	<section id="wrapper">
 		<header> 
 			<?php include("_includes/menu.php");?>
-		 		<div class="banner">
-				 	<ul>
-				        <li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/1.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/9.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/8.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/7.jpg')">  </li>
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/6.jpg')">  </li> 
-			    		<li style="background-image:url('_assets/_Images/Hotels/WGPlaya_blanca/5.jpg')">  </li> 
-			   		</ul>
-				</div>
-				<div class="logohotel">
-					<img src="_assets/_Images/cabezote-logo-pb-corona.png">
-				</div>
+			<?php include("_includes/cabezote_pb_corona.php");?>
 	 	</header>	
 		<article id="content_hotel">
 			 <header>
@@ -66,7 +54,7 @@
 						<a href="hotel-wyndhamgrand-playa-corona-restaurantes.php"><li>RESTAURANTES</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-servicios.php"><li>SERVICIOS</li></a>
 						<a href="hotel-wyndhamgrand-playa-corona-reservas.php"><li>RESERVAS</li></a>
-						<a href="hotel-wyndhamgrand-playa-corona-galeria.php"><li>GALERIA</li></a>	
+						<a href="hotel-wyndhamgrand-playa-corona-galeria.php"><li>GALERIA</li></a>					
 					</ul>
 				</nav>	
 			 </header>
@@ -76,44 +64,45 @@
 
 				<H2>Breath, Eat, Feel… Wyndham Moments</H2>
 				<h3>NUESTRAS HABITACIONES</h3>
-			 	<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/cover3.jpg" width="100%">
-				<p class="both">	</br>Descanse de la rutina en nuestros amplios balcones donde el escenario son las vistas impresionantes del mar, con el ruido de las olas a lo lejos y el color naranja de nuestros atardeceres. Adicional encontrará:</p>
 
+			 	<img src="_assets/_Images/Hotels/WGCORONA/rooms/cover-suite.jpg" width="100%">
+				<p class="both"></br>El único All Inclusive que te hará sentir en casa. Este All Suites Hotel fue diseñado con 108 habitaciones espaciosas y comodidades de casa como; kitchenette bar, sala, balcón, para ofrecerles a nuestros huéspedes una experiencia única.</p>
+				<p>One bedroom suite equipada con:</p>
 					<ul class="listroom">
-						<li>Balcón privado </li>
-						<li>Sala </li>
-						<li>32” y 42” LCD HD</li>
-						<li>His and Her Sinks</li>
-						<li>Batas con pantuflas de baño</li>
-						<li>Kitchennette </li> 
+						<li>HD LCD TV 32"</li>
+						<li>Cafetera </li>
+						<li>Mini-Bar</li>
+						<li>Air conditioning</li>
+						<li>Teléfono</li>
+						<li>Secador de cabello</li>
+						<li>110V</li>
+						<li>Caja de seguridad</li>
+						<li>Tabla de planchar y plancha</li>
+						<li>Sala</li>
+						<li>Cocineta con microondas</li>
+						<li>1 cama doble</li>
+						<li>sofá cama</li>
+						<li>capacidad de 3 personas</li>
 					</ul>
-				<p class="both">Las familias grandes, encontraran la solución de acomodación perfecta en nuestras Family Suites con más de 90 m2 y capacidad hasta 6 personas. Cuenta con una cama King y 2 camas full.</p>
-
 
 				<div class="both"/>
 				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-blanca-breath.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms1.jpg">
+					<a href="hotel-wyndhamgrand-playa-corona-suite.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/room-one.jpg">
 					</a>
 				</div>
 
 				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-blanca-deluxe.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms2.jpg">
+					<a href="hotel-wyndhamgrand-playa-corona-family.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-family.jpg">
 					</a>
 				</div>
 
 				<div class="roomprev">
-					<a href="hotel-wyndhamgrand-playa-blanca-suite.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms3.jpg">
+					<a href="hotel-wyndhamgrand-playa-corona-two-suite.php">
+						<img src="_assets/_Images/Hotels/WGCORONA/rooms/rooms-two-suite.jpg">
 					</a>
 				</div>
-
-				<div class="roomprev nomarginright">
-					<a href="hotel-wyndhamgrand-playa-blanca-penthouse.php">
-						<img src="_assets/_Images/Hotels/WGPlaya_blanca/rooms/rooms4.jpg">
-					</a>
-				</div>	
 </br>
 				 		
 															
