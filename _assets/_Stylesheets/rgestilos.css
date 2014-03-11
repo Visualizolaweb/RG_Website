@@ -376,7 +376,7 @@ footer p{
 	background-color: #e0e0e0;
 	padding: 10px;}
 
-.formulario form input[type="text"],.formulario form textarea{
+.formulario form input[type="text"],input[type="email"],input[type="tel"],.formulario form textarea{
 	width: 95%;
 	padding:  3px 5px;
 	border:1px solid #c0c0c0;

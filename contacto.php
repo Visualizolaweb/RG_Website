@@ -72,21 +72,29 @@
 		<article id="content_hotel">
 			<div class="bgform">
 				<h4>DEJA TU COMENTARIO!</h4>
+				<?php
+					$msg = $_GET['msg'];
+					if($msg =='false'){
+							echo "<p>Error al intentar enviar el mensaje, intente nuevamente</p>";
+					}elseif($msg =='true'){
+						echo "<p>Mensaje enviado con exito, muy pronto nos estaremos contactando con usted.</p>";
+					}
+				?>
 			<form name="contact" id="contact" method="post" action="send-contact.php">
 				
-				<select name="interes" id="interes">
+				<select name="interes" id="interes" required>
                     <option value="">Interesado en: </option>
                     <option value="01">Casa Grande Bambito</option>
                     <option value="02">Tryp Coronado</option>
                     <option value="03">Wyndham Grand Playa Balnca</option>
                     <option value="04">Wyndham Playa Corona Resort</option>
                 </select><br>
-				<input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
-				<input type="text" name="apellidos" id="apellidos" placeholder="Apellidos"><br>
-				<input type="text" name="correo" id="correo" placeholder="Correo Electrónico"><br>
+				<input type="text" name="nombre" id="nombre" required placeholder="Nombre"><br>
+				<input type="text" name="apellidos" id="apellidos" required placeholder="Apellidos"><br>
+				<input type="email" name="correo" id="correo" required autocomplete="off" placeholder="Correo Electrónico"><br>
 				
-                <input type="text" name="asunto" id="asunto" placeholder="Asunto"><br>
-                <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea><br>
+                <input type="text" name="asunto" id="asunto" required placeholder="Asunto"><br>
+                <textarea name="mensaje" id="mensaje" required placeholder="mensaje"></textarea><br>
                 <input type="submit" name="enviar" value="Enviar">
 			</form>
 			</div>

@@ -81,11 +81,19 @@
 			 <div class="formulario">
 			 	<h2>CONTACTANOS</h2>
 				<p>No eres dueño de una propiedad RG todavía, no te preocupes. Contactanos para más detalles.</p>
+				<?php
+					$msg = $_GET['msg'];
+					if($msg =='false'){
+							echo "<p>Error al intentar enviar el mensaje, intente nuevamente</p>";
+					}elseif($msg =='true'){
+						echo "<p>Mensaje enviado con exito, muy pronto nos estaremos contactando con usted.</p>";
+					}
+				?>
 			<form name="contact" id="contact" method="post" action="send-member.php">
-				<input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
-				<input type="text" name="correo" id="correo" placeholder="Correo Electrónico"><br>
-				<input type="text" name="telefono" id="telefono" placeholder="Teléfono"><br>				
-                <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea><br>
+				<input autofocus type="text" required name="nombre" id="nombre"  placeholder="Nombre"><br>
+				<input type="email" name="correo" required id="correo" autocomplete="off" placeholder="Correo Electrónico"><br>
+				<input type="tel" name="telefono" required id="telefono" placeholder="Teléfono"><br>				
+                <textarea name="mensaje" id="mensaje" required placeholder="mensaje"></textarea><br>
                 <input type="submit" name="enviar" value="Enviar">
 			</form>
 			 </div>
